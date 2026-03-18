@@ -11,3 +11,7 @@ PRODUCT_COPY_FILES += \
 # Tablet Packages
 PRODUCT_PACKAGES += \
     AOSPAFrameworksTabletOverlay
+
+# Override props
+PRODUCT_PRODUCT_OVERRIDES += \
+    ro.setupwizard.rotation_locked=false
